@@ -205,9 +205,6 @@ def main():
 
         Clnt.movement()
 
-        # if ball.scorePlayer% 400 or ball.scoreClient% 400 == 0:
-        #     velBall += 1
-
         redraw(window, Serv, Clnt, ball, ball.scorePlayer, ball.scoreClient)
 
 
